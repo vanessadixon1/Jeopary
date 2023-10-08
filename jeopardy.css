@@ -1,0 +1,57 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #115ff4;
+  color: white;
+  font-size: 62.5%;
+
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+table {
+  font-size: 4rem;
+ 
+}
+
+thead td{
+  border: 1px solid black;
+  width:200px;
+  height: 10vh;
+  margin: 15%; 
+  border-radius: 2px;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+tr, tbody td {
+  border: 1px solid black;
+  width:200px;
+  height: 10vh;
+  margin: 15%; 
+  border-radius: 2px;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 3%;
+  width: 6%;
+  height: 5vh;
+  font-size: 1rem;
+  background-color:#74119c;
+  color:azure;
+  border-radius: 4px;
+}
